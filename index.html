@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia Game</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <body>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1 class="maintitle">Totally Trivial Trivia!</h1>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-4 ">
+                    <button type="button" class="btn btn-success btn-lg btn-block" id="start">Start</button>
+                </div>
+                <div class="col-lg-4 col-lg-offset-4 text-center">
+                    <h3 id="time">Time Left: <br> <span id="timer"></span></h3>
+                </div>
+            </div>
+
+            <div class="questions text-center">
+                <p>1. In Aladdin, what is the name of Jasmine’s pet tiger?</p>
+                <form class="question">
+                    <label class="radio-inline">
+                        <input type="radio" value="wrong">Tony
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" value="wrong">Tiger
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" value="goodanswer">Rajah
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" value="wrong">Shere Khan 
+                    </label>
+                </form>
+                <br>
+                <p>2.  In the Lion King, where does Mufasa and his family live?</p>
+                <form class="question">
+                    <label class="radio-inline">
+                        <input type="radio" value="goodanswer">Pride Rock
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" value="wrong">Bikini Bottom
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" value="wrong">Radiator Springs
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" value="wrong">Echo Creek
+                    </label>
+                </form>
+                <br>
+                <p>3. Which is the only Disney animated film with a main character that doesn’t speak?</p>
+                <form class="question">
+                    <label class="radio-inline">
+                        <input type="radio" value="wrong">Lady and the Tramp
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" value="wrong">101 Dalmatians
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" value="wrong">The Jungle Book
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" value="goodanswer">Dumbo
+                    </label>
+                </form>
+                <br>
+                <p>4. What animal does Jafar turn into during his fight with Aladdin?</p>
+                <form class="question">
+                    <label class="radio-inline">
+                        <input type="radio" value="goodanswer">A Cobra
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" value="wrong">A Tiger
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" value="wrong">A Hawk
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" value="wrong">A Rat
+                    </label>
+                </form>
+                <br>
+                <p>5. Which character was Walt Disney's first creation?</p>
+                <form class="question">
+                    <label class="radio-inline">
+                        <input type="radio" value="wrong">Mickey Mouse
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" value="goodanswer">Oswald
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" value="wrong">Pinocchio 
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" value="wrong">Snow White
+                    </label>
+                </form>
+
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-4">
+                    <button type="button" class="btn btn-success btn-lg btn-block" id="submit">Submit (To see score)</button>
+                </div>
+            </div>
+
+        </div>
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="assets/javascript/app.js"></script>
+
+    </body>
+
+</html>
